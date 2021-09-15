@@ -1,0 +1,275 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    font-family: 24px;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+a, a:hover {
+    text-decoration: none;
+}
+/* global css start */
+.row{
+    width:100%;
+    float:left;
+}
+.col-6{
+    width:50%;
+    float:left;
+}
+.col-12{
+    width:100%;
+    float:left;
+}
+/* global css end */
+
+/* header section code start */
+.header{
+    width:100%;
+    float:left;
+}
+.name0{
+    color:#E9D550;
+    text-align: center;
+    margin-top: 220px;
+    font-size:40px;
+}
+.container h1.name1{
+    color:#E9D550;
+    padding:25px;
+}
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 15px 0px 28px;
+    color:#fff;
+}
+.container .col-6 img {
+    width:960px;
+    height: 966px;
+}
+.header .part-1{
+    background-color: #015761;
+    font-size:24px;
+    padding-bottom: 325px;
+}
+.container h3.name10 {
+    color:#E9D550;
+    text-align: center;
+    margin-top:220px;
+}
+.container .name2 {
+    color:#fff;
+    padding:10px;
+    text-align: center;
+    font-size:60px;
+}
+.container h6 {
+    text-align: center;
+    color:#fff;
+}
+.menu li a{
+    transition: 0.5s;
+    color:#fff;
+}
+.menu li a:hover{
+    background-color:#E9D550;
+    padding:15px;
+    border-radius: 10px;
+    color:#015761;
+}
+/* header section code end */
+
+/* About section start */
+.about-me {
+    width:100%;
+    float:left;
+    background-color: #F1F0F0;
+    height: 470px;
+    padding-bottom: 50px;
+}
+.container h1.about{
+    color:#015761;
+    text-align: center;
+    margin-top:100px;
+    font-size:44px;
+}
+.container p.about1{
+    font-size: 14px;
+    line-height: 26px;
+    padding:10px;
+    text-align: center;
+}
+.container button.about2{
+    border:2px solid #F7DC4F;
+    text-align: center;
+    width:200px;
+    position: absolute;
+    right:840px;
+    padding:10px;
+    background-color:#F7DC4F;
+    border-radius: 5px;
+    color:#015761;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+button.about2:hover{
+    background-color: #5A6E9C;
+    color:#fff;
+}
+/* About section end */
+
+/* showreel section start */
+.showreel{
+    width: 100%;
+    float: left;
+}
+.showreel h1{
+    color:#015761;
+    text-align: center;
+    font-size:44px;
+    padding:25px;
+}
+.showreel video{
+    margin-left:320px;
+    width: 70%;
+}
+/* showreel section end */
+
+/* Photos section start */
+.photos{
+    width:100%;
+    float: left;
+}
+.photos h1.about3{
+    text-align: center;
+    color:#015761;
+    font-size:44px;
+    padding:10px;
+}
+.photos img{
+    float:left;
+    border:10px solid #fff;
+}
+.img1{
+    margin-left: 100px;
+    width:490px;
+    height:490px;
+}
+.img2{
+    width:600px;
+    height: 490px;
+}
+.img3{
+    width:600px;
+    height: 490px;
+}
+.img4{
+    width:600px;
+    height: 490px;
+    margin-left: 100px;
+}
+.img5{
+    width:600px;
+    height: 490px;
+}
+.img6{
+    width:490px;
+    height:490px;
+}
+/* Photos section end */
+/* Contact-info section start */
+.contact-info{
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+}
+.contact-info .right-side{
+    background-color: #015761;
+    font-size:24px;
+    text-align: center;
+}
+.contact-info .name3{
+    color:#F7DC4F;
+}
+.contact h3.name4{
+    color:#fff;
+}
+.col-6.right-side{
+    height: 100vh;
+}
+.white{
+    color:#fff
+}
+.name9{
+    text-align: center;
+    color:#fff;
+}
+.contact-info h1.name3{
+    color:#E9D550;
+    margin-top:80px;
+}
+.contact-info h3.name4{
+    margin-bottom:15px
+}
+.right-side{
+    line-height: 30px;
+}
+/* Contact-info section end */
+/* footer section start */
+.footer p{
+    padding:10px;
+    text-align: center;
+    background-color: cadetblue;
+    margin-top:10px;
+}
+.footer p a{
+    color:white;
+    letter-spacing: 3px;
+}
+/* footer section end */
+/* share-options start*/
+.fb{
+    width:150px;
+    position: fixed;
+    top:40%;
+    right:-100px;
+    transition: 0.5s;
+}
+.fb:hover{
+    right:0px;
+    cursor: pointer;
+}
+.insta{
+    width:150px;
+    height: 50px;
+    position: fixed;
+    top:46%;
+    right:-100px;
+    transition: 0.5s;
+}
+.insta:hover{
+    right:0px;
+    cursor: pointer;
+}
+.twitter{
+    width:160px;
+    position: fixed;
+    top:52%;
+    right:-120px;
+    transition: 0.5s;
+}
+.twitter:hover{
+    right:0px;
+    cursor: pointer;
+}
+.social-icons .fa{
+    cursor: pointer;
+}
+/* share option ends */
